@@ -1,0 +1,21 @@
+{
+  "name": "ecommerce-architecture",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ecommerce con arquitectura profesional, Repository Pattern, DTO, roles y mailing",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "nodemailer": "^6.9.13",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
